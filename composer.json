@@ -1,0 +1,27 @@
+{
+    "name": "serge/dotenv",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Serge\\Dotenv\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Davut Sergeev",
+            "email": "sergeevdavut@mail.ru"
+        }
+    ],
+    "require": {
+        "serge/config": "@dev"
+    },
+    "repositories": {
+        "config": {
+            "type": "path",
+            "url": "/OpenServer/domains/packages/config",
+            "options": {
+                "symlink": true
+            }
+        }
+    }
+}
